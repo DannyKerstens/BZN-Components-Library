@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=F:\Altium Library
 AddMode=2
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,16 +19,13 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Capacitors
+LastFocusedTable=Resistors
 [Table1]
 SchemaName=
 TableName=Capacitors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Footprint Path0=98|Library Path0=98|Description0=141|Comment0=78|Capacitance0=85|Manufacturer Part Number0=160|Manufacturer0=93|Case/Package0=93|Voltage Rating0=100|Tolerance0=73|Material0=65|Dielectric0=70|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142
 [Table2]
 SchemaName=
 TableName=Connectors
@@ -49,7 +46,7 @@ UserWhere=0
 UserWhereText=[Resistance] = '{Resistance}' AND [Tolerance] = {Tolerance} AND [Power Rating] = '{Power Rating}'
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=109|Library Ref0=77|Footprint Ref0=92|Footprint Path0=98|Library Path0=90|Description0=225|Comment0=72|Resistance0=77|Tolerance0=73|Power Rating0=92|Case/Package0=93|Temperature Coefficient0=147|Manufacturer0=93|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=155|Supplier 20=75|Supplier Part Number 20=149|Supplier 30=75|Supplier Part Number 30=142
+BrowserOrder_Visible=Part Number0=109|Library Ref0=77|Footprint Ref0=92|Footprint Path0=98|Library Path0=90|Description0=225|Comment0=72|Resistance0=77|Tolerance0=73|Power Rating0=92|Case/Package0=93|Temperature Coefficient0=147|Manufacturer0=93|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=155|Supplier 20=75|Supplier Part Number 20=149|Supplier 30=75|Supplier Part Number 30=148
 [FieldMap1]
 Options=FieldName=Capacitors.Part Number|TableNameOnly=Capacitors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
