@@ -19,7 +19,7 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Sensors
+LastFocusedTable=Integrated Circuits
 [Table1]
 SchemaName=
 TableName=Capacitors
@@ -44,6 +44,9 @@ TableName=Integrated Circuits
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=123|Library Ref0=163|Footprint Ref0=92|Description0=165|Comment0=153|Library Path0=83|Footprint Path0=98|Case/Package0=93|Manufacturer0=100|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=165|Supplier 30=75|Supplier Part Number 30=142
 [Table5]
 SchemaName=
 TableName=Leds
@@ -80,9 +83,6 @@ TableName=Sensors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=134|Library Ref0=77|Footprint Ref0=92|Description0=82|Comment0=153|Case/Package0=93|Manufacturer0=100|Manufacturer Part Number0=145|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Library Path0=83|Footprint Path0=98
 [Table11]
 SchemaName=
 TableName=Transistors
