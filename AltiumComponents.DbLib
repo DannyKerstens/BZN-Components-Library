@@ -19,7 +19,7 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Memory
+LastFocusedTable=Connectors
 [Table1]
 SchemaName=
 TableName=Capacitors
@@ -32,6 +32,9 @@ TableName=Connectors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Footprint Ref0=97|Comment0=72|Footprint Path0=103|Library Path0=103|Description0=183|Manufacturer0=93|Pitch0=48|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Mount0=80|Number of Positions0=128|Number of Rows0=109|Contact Plating0=102|Contact Type0=90
 [Table3]
 SchemaName=
 TableName=Diodes
@@ -56,9 +59,6 @@ TableName=Memory
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=109|Library Ref0=124|Footprint Ref0=92|Comment0=153|Description0=82|Interface type0=93|Memory Type0=91|Memory Organisation0=135|Memory Size0=87|Max Supply Voltage0=125|Min Supply Voltage0=124|Case/Package0=93|Manufacturer0=122|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Library Path0=83|Footprint Path0=98
 [Table7]
 SchemaName=
 TableName=Microcontrollers
