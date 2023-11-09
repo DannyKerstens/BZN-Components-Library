@@ -100,7 +100,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=108|Library Ref0=87|Footprint Ref0=173|Description0=145|Comment0=153|Library Path0=83|Footprint Path0=98|Manufacturer0=96|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142
+BrowserOrder_Visible=Part Number0=108|Library Ref0=87|Footprint Ref0=173|Description0=175|Comment0=153|Library Path0=83|Footprint Path0=98|Manufacturer0=96|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142
 [Table14]
 SchemaName=
 TableName=Transistors
