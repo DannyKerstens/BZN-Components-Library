@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Extended Properties="Driver={SQLite3 ODBC Driver};Database=E:\Altium Files\Altium Database New\Altium-Components.db;StepAPI=0;SyncPragma=;NoTXN=0;Timeout=;ShortNames=0;LongNames=0;NoCreat=0;NoWCHAR=0;FKSupport=0;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;AttachAs=;ILike=0"
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Extended Properties="Driver={SQLite3 ODBC Driver};Database=E:\Altium Files\Altium-Components-Library\BZN-Components.db;StepAPI=0;SyncPragma=;NoTXN=0;Timeout=;ShortNames=0;LongNames=0;NoCreat=0;NoWCHAR=0;FKSupport=0;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;AttachAs=;ILike=0"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Resistors
+LastFocusedTable=Capacitors
 [Table1]
 SchemaName=
 TableName=Capacitors
@@ -92,9 +92,6 @@ TableName=Resistors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=108|Library Ref0=77|Footprint Ref0=92|Description0=225|Footprint Path0=199|Library Path0=90|Comment0=72|Resistance0=77|Tolerance0=73|Power Rating0=92|Case_Package0=94|Temperature Coefficient0=147|Manufacturer0=93|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=155|Supplier 20=75|Supplier Part Number 20=151|Supplier 30=75|Supplier Part Number 30=151
 [Table13]
 SchemaName=
 TableName=Sensors
