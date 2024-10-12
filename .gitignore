@@ -1,3 +1,5 @@
 *.Zip
 *.ldb
 */__Previews
+*.db-wal
+*.db-shm
