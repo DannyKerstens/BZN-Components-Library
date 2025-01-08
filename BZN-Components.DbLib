@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=AltiumComponents;Mode=Read;Initial Catalog=components;Option=2;
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=AltiumComponents;Mode=Read;Initial Catalog=components
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Inductors
+LastFocusedTable=Memory
 [Table1]
 SchemaName=
 TableName=Audio
@@ -56,9 +56,6 @@ TableName=Inductors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=101|Library Ref0=99|Footprint Ref0=105|Description0=166|Library Path0=226|Footprint Path0=252|Subcategory0=87|Comment0=72|Case/Package0=93|Manufacturer0=106|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Inductance0=80|Tolerance0=73|Max DC Current0=104|Saturation Current0=119|DC Resistance0=95
 [Table7]
 SchemaName=
 TableName=Integrated Circuits
@@ -71,6 +68,9 @@ TableName=Memory
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=114|Library Ref0=102|Footprint Ref0=92|Description0=100|Library Path0=229|Footprint Path0=204|Manufacturer Part Number0=160|Subcategory0=87|Comment0=153|Case/Package0=93|Manufacturer0=121|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Memory Size0=87|Memory Organisation0=135|Max Supply Voltage0=125|Min Supply Voltage0=124|Interface Type0=94
 [Table9]
 SchemaName=
 TableName=Optical Components
@@ -170,7 +170,7 @@ Options=FieldName=Crystals.Library Path|TableNameOnly=Crystals|FieldNameOnly=Lib
 [FieldMap28]
 Options=FieldName=Crystals.Footprint Path|TableNameOnly=Crystals|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=Crystals.Manufacturer Part Number|TableNameOnly=Crystals|FieldNameOnly=Manufacturer Part Number|FieldType=1|ParameterName=Manufacturer Part Number|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals.Frequency|TableNameOnly=Crystals|FieldNameOnly=Frequency|FieldType=1|ParameterName=Frequency|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
 Options=FieldName=Diodes.Part Number|TableNameOnly=Diodes|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
