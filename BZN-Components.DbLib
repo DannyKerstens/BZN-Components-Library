@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=Alti
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=Footprints;Symbols
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Memory
+LastFocusedTable=categories
 [Table1]
 SchemaName=
 TableName=Audio
@@ -32,6 +32,9 @@ TableName=Capacitors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=151|Library Ref0=77|Footprint Ref0=101|Description0=253|Library Path0=203|Footprint Path0=287|Capacitance0=85|Voltage Rating0=100|Subcategory0=115|Comment0=78|Case/Package0=93|Manufacturer0=93|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=175|Supplier 20=75|Supplier Part Number 20=176|Supplier 30=75|Supplier Part Number 30=175|Dielectric0=70|Tolerance0=72|ESR0=48
 [Table3]
 SchemaName=
 TableName=Connectors
@@ -68,9 +71,6 @@ TableName=Memory
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=114|Library Ref0=102|Footprint Ref0=92|Description0=100|Library Path0=229|Footprint Path0=204|Manufacturer Part Number0=160|Subcategory0=87|Comment0=153|Case/Package0=93|Manufacturer0=121|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Memory Size0=87|Memory Organisation0=135|Max Supply Voltage0=125|Min Supply Voltage0=124|Interface Type0=94
 [Table9]
 SchemaName=
 TableName=Optical Components
@@ -89,6 +89,9 @@ TableName=Processors/Controllers
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=156|Library Ref0=147|Footprint Ref0=92|Description0=317|Library Path0=258|Footprint Path0=196|Manufacturer Part Number0=160|Subcategory0=87|Comment0=153|Case/Package0=93|Manufacturer0=103|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=188|Supplier 30=75|Supplier Part Number 30=142|Flash Size0=73|RAM Size0=70|Interface0=224
 [Table12]
 SchemaName=
 TableName=Resistors
@@ -107,12 +110,78 @@ TableName=Switches
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=107|Library Ref0=86|Footprint Ref0=171|Description0=172|Library Path0=217|Footprint Path0=314|Manufacturer Part Number0=160|Subcategory0=87|Comment0=153|Case/Package0=93|Manufacturer0=96|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Throw Configuration0=131|Voltage Rating0=100
 [Table15]
 SchemaName=
 TableName=Transistors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=108|Library Ref0=77|Footprint Ref0=92|Description0=146|Library Path0=204|Footprint Path0=201|Manufacturer Part Number0=160|Subcategory0=102|Comment0=153|Case/Package0=93|Manufacturer0=99|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Power Dissipation0=116|Threshold Voltage0=117|Drain Source Voltage0=132|Continuous Drain Current0=157|RDS(on) Max0=88
+[Table16]
+SchemaName=
+TableName=categories
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=123|Name0=123
+[Table17]
+SchemaName=
+TableName=manufacturers
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=190|Name0=190|Website0=235
+[Table18]
+SchemaName=
+TableName=mechanical
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table19]
+SchemaName=
+TableName=packages
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=82|Name0=82|AlternativeName0=107|PackageTypeId0=98
+[Table20]
+SchemaName=
+TableName=packagetypes
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=49|Name0=52|FootprintPathIC0=105
+[Table21]
+SchemaName=
+TableName=parameters
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=142|Name0=142|Optional0=69|SubCategoryId0=124
+[Table22]
+SchemaName=
+TableName=subcategories
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Id0=124|Name0=124|CategoryId0=123|PartCodeFormat0=251|SymbolPath0=117|FootprintPath0=122
 [FieldMap1]
 Options=FieldName=Audio.Part Number|TableNameOnly=Audio|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -325,3 +394,15 @@ Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOn
 Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
 Options=FieldName=Transistors.Manufacturer Part Number|TableNameOnly=Transistors|FieldNameOnly=Manufacturer Part Number|FieldType=1|ParameterName=Manufacturer Part Number|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap107]
+Options=FieldName=mechanical.Part Number|TableNameOnly=mechanical|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap108]
+Options=FieldName=mechanical.Library Ref|TableNameOnly=mechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap109]
+Options=FieldName=mechanical.Footprint Ref|TableNameOnly=mechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap110]
+Options=FieldName=mechanical.Description|TableNameOnly=mechanical|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap111]
+Options=FieldName=mechanical.Library Path|TableNameOnly=mechanical|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap112]
+Options=FieldName=mechanical.Footprint Path|TableNameOnly=mechanical|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
